@@ -8,4 +8,4 @@ g = 9.8
 degree = f/(m*g)
 
 A = math.degrees(degree)
-print ("The angle of the ramp is", A, "degrees")
+print ("The angle of the ramp is", "{:,.2f}".format(A), "degrees")
