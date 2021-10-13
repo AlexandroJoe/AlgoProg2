@@ -7,5 +7,6 @@ g = 9.8
 
 degree = f/(m*g)
 
-A = math.degrees(degree)
-print ("The angle of the ramp is", "{:,.2f}".format(A), "degrees")
+radian = math.asin(degree)
+converting= math.degrees(radian)
+print ("The angle of the ramp is", "{:,.2f}".format(converting), "degrees")
