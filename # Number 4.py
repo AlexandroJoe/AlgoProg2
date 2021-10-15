@@ -23,6 +23,13 @@ elif a >= 50 and a <= 99:
 elif a >= 100:
     print("Discount Amount @ 40%: $ ", format(f,'.2f'))
     print("Total Amount: $", format(j,'.2f'))
+elif a < 0:
+    print("No quantity below 0")
 else:
     print("Discount Amount @ 0%: $ 0.00")
     print("Total Amount: $", format(b,'.2f'))
+
+#input the quantity
+#the program will decide which range it is
+#print discount amount
+#print total amount

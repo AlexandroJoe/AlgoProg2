@@ -9,4 +9,9 @@ degree = f/(m*g)
 
 radian = math.asin(degree)
 converting= math.degrees(radian)
-print ("The angle of the ramp is", "{:,.2f}".format(converting), "degrees")
+print ("The angle of the ramp is", "{:,.1f}".format(converting), "degrees")
+
+# input the mass
+# input the force
+# process begin on degree by calculating
+# the calculation will be show on the last line
